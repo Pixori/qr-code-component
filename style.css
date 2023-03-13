@@ -1,0 +1,50 @@
+:root {
+  --var-white: hsl(0, 0%, 100%);
+  --var-lightGray: hsl(212, 45%, 89%);
+  --var-grayishBlue: hsl(220, 15%, 55%);
+  --var-darkBlue: hsl(218, 44%, 22%);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: var(--var-lightGray);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background: var(--var-white);
+  border-radius: 16px;
+  padding: 12px;
+  width: 260px;
+  box-shadow: 0px 26px 60px 0px #0000001a;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.text {
+  padding: 16px 16px 16px 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--var-darkBlue);
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--var-grayishBlue);
+}
